@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travelling All India | Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Travelling All India</h1>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="location.html">Destination</a>
+        <a href="book.html">Book</a>
+    </nav>
+</header>
+
+<!-- FORM CONTAINER -->
+<div class="form-box">
+    <h2>Booking Details</h2>
+
+    <form>
+        <table>
+
+            <tr>
+                <th>Name</th>
+                <td>
+                    <input type="text" placeholder="Enter your name" required>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Gender</th>
+                <td class="radio-group">
+                    <label><input type="radio" name="gender"> Male</label>
+                    <label><input type="radio" name="gender"> Female</label>
+                    <label><input type="radio" name="gender"> Other</label>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Email</th>
+                <td>
+                    <input type="email" placeholder="example@gmail.com" required>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Destination</th>
+                <td>
+                    <input type="text" placeholder="Goa, Manali, Jaipur..." required>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Travel Date</th>
+                <td>
+                    <input type="date" required>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Number of Travelers</th>
+                <td>
+                    <input type="number" min="1" max="20" placeholder="Enter number" required>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Travel Type</th>
+                <td class="radio-group">
+                    <label><input type="radio" name="type"> Family</label>
+                    <label><input type="radio" name="type"> Friends</label>
+                    <label><input type="radio" name="type"> Solo</label>
+                </td>
+            </tr>
+
+        </table>
+
+        <div class="btn-center">
+            <button type="submit">Submit Booking</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
